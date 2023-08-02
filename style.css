@@ -1,0 +1,40 @@
+/* Стилі для гнучкого контейнера */
+.holder {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Стилі для рядів */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Стилі для елементів */
+  .item {
+    flex: 1;
+    text-align: center;
+    border: 1px solid black; /* Додайте рамку для візуального контролю */
+  }
+  
+  /* Фонові кольори для кожного елемента */
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
